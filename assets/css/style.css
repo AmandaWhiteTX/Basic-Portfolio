@@ -1,5 +1,7 @@
+
+
 body {
-    padding: 0;
+    padding: 40px;
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
@@ -8,87 +10,94 @@ body {
     background: #f8dcf4;
   }
   
-  header {
-    position: absolute;
-    top: 0;
-    padding: 10px;
-    line-height: 5px;
-    margin: 0;
-    text-align: center;
-    background:teal;
-    width: 33.3%;
-    margin-right: 0% auto;
+  header{
+    width: 100%;
+    background: #f8dcf4;
   }
-  
   h1 {
-    padding: 5px 0;
+    float: left;
+    width: 20%;  
+    padding: 20px;
     margin: 0;
-    margin-top: 20px;
-    margin-right: 100px;
+    margin-right: 10px;
     font-size: 28px;
     color: #eee;
     text-align: center;
+    background:teal;
   }
   
-  h2 {
-    font-size: 24px;
-    color: rgb(151, 2, 126)
-  }
-  
-  a {
-    color: #d21034;
-  }
-  
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
-  #main-bio,
-  #contact,
-  #bio-image {
+  #about {
     float: left;
-  }
-  
-  #main-bio {
-    width: 70%;
-  }
-  
+    width: 10%;  
+    padding: 20px;
+    margin: 0;
+    font-size: 16px;
+    color: rgb(5, 0, 0);
+    text-align: center;
+    background:eee;
+    }
+
   #contact {
-    position: fixed;
-    top: 0;
-    padding: 10px;
-    line-height: 5px;
-    margin: 0;
+    float: left;
+    width: 10%;  
+    padding: 20px;
+    margin-left: -10px;
+    font-size: 16px;
+    color: #eee;
     text-align: center;
-    background: rgb(151, 2, 126);
-  }
+    background:eee;
+     }
+
   #portfolio {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 10px;
-    line-height: 5px;
+    float: left;
+    width: 10%;  
+    padding: 20px;
     margin: 0;
+    font-size: 16px;
+    color: #eee;
     text-align: center;
-    background: rgb(151, 2, 126);
-  }
+    background:eee;      
+     }
 
-  #About {
-    position: fixed;
-    top: 0;
-    right: 0;
+   h2 {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    color: rgb(151, 2, 126);
     padding: 10px;
-    line-height: 5px;
-    margin: 0;
-    text-align: center;
-    background: #eee;
-  }
-
-
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
+      }
+  
+  .wrapper {
+    clear:both;
+    width: 1024px;
+    margin: 30 px;
+    background-color: #eee;
   }
   
+  #bio-image {
+    width: 25%;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 20px;
+      }
+
+  #main-bio {
+    float: left;
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: #eee;
+     } 
+ 
+  .footer {
+    clear: both;
+    position: fixed;
+    width: 100%;
+    bottom: 0;  
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    background: rgb(151, 2, 126);
+  }
